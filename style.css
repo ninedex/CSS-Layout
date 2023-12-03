@@ -1,0 +1,60 @@
+/* Normal Flow */
+/* body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    }
+    h1 {
+    background-color: #efefef;
+    padding: 10px;
+    }
+    p {
+    width: 450px;
+} */
+
+/* Relative Positioning */
+/* p{
+    position: relative;
+    top: 10px;
+    left: 100px;} */
+
+    /* Absolute Positioning */
+    /* h1 {
+        position: absolute;
+        top: 0px;
+        left: 500px;
+        width: 250px;
+        }
+        p {
+        width: 450px;} */
+
+ /* Fixed Positioning */
+ /* h1 {
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #efefef;}
+
+    p{
+    margin-top: 100px;} */
+
+    /* Overlapping Elements*/
+    h1 {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        padding: 10px;
+        width: 100%;
+        background-color: #efefef;
+        z-index: 1;
+    }
+
+        p {
+        position: relative;
+        top: 70px;
+        left: 70px;
+    }
