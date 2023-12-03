@@ -41,8 +41,8 @@
     p{
     margin-top: 100px;} */
 
-    /* Overlapping Elements*/
-    h1 {
+    /* Overlapping Elements z-index*/
+    /* h1 {
         position: fixed;
         top: 0px;
         left: 0px;
@@ -57,4 +57,57 @@
         position: relative;
         top: 70px;
         left: 70px;
-    }
+    } */
+    /* Floating Elements */
+    /* blockquote {
+        float: right;
+        width: 275px;
+        font-size: 130%;
+        font-style: italic;
+        font-family: Georgia, Times, serif;
+        margin: 0px 0px 10px 10px;
+        padding: 10px;
+        border-top: 1px solid #665544;
+        border-bottom: 1px solid #665544;} */
+/* FLoating Side by Side */
+        /* body {
+            width: 750px;
+            font-family: Arial, Verdana, sans-serif;
+            color: #665544;}
+            p {
+            width: 230px;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            background-color: #efefef;} */
+/* Clearing Floats */
+/* img{
+    float: right;
+    width: 100px;
+}
+p{
+    clear: right;
+} */
+
+/* Creating Multi-Column Layouts */
+.column1of3 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid green;
+    padding: 10px;
+}
+    .column2of3 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+.column3of3 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid blue;
+    padding: 10px;
+}
