@@ -155,7 +155,7 @@ p{
     background-color: #efefef;} */
 
 /* 960 Grid system */
-* {
+/* * {
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
   text-align: center;
@@ -173,9 +173,15 @@ p{
 #feature,
 .article {
   height: 100px;
-}
+} */
 
-li {
+/* li {
   display: inline;
   padding: 5px;
+} */
+
+/* Multiple Stylesheet in css @import using */
+@import url(./test-stylesheet.css);
+#heading1 {
+  color: red;
 }
