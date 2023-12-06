@@ -18,8 +18,8 @@
     top: 10px;
     left: 100px;} */
 
-    /* Absolute Positioning */
-    /* h1 {
+/* Absolute Positioning */
+/* h1 {
         position: absolute;
         top: 0px;
         left: 500px;
@@ -28,8 +28,8 @@
         p {
         width: 450px;} */
 
- /* Fixed Positioning */
- /* h1 {
+/* Fixed Positioning */
+/* h1 {
     position: fixed;
     top: 0px;
     left: 50px;
@@ -41,8 +41,8 @@
     p{
     margin-top: 100px;} */
 
-    /* Overlapping Elements z-index*/
-    /* h1 {
+/* Overlapping Elements z-index*/
+/* h1 {
         position: fixed;
         top: 0px;
         left: 0px;
@@ -58,8 +58,8 @@
         top: 70px;
         left: 70px;
     } */
-    /* Floating Elements */
-    /* blockquote {
+/* Floating Elements */
+/* blockquote {
         float: right;
         width: 275px;
         font-size: 130%;
@@ -70,7 +70,7 @@
         border-top: 1px solid #665544;
         border-bottom: 1px solid #665544;} */
 /* FLoating Side by Side */
-        /* body {
+/* body {
             width: 750px;
             font-family: Arial, Verdana, sans-serif;
             color: #665544;}
@@ -130,7 +130,7 @@ p{
     li {
     display: inline;
     padding: 5px;} */
-    
+
 /* Liquid Width Layout */
 /* body {
     width: 90%;
@@ -154,4 +154,28 @@ p{
     margin-bottom: 1em;
     background-color: #efefef;} */
 
-    /* Layout Grids */
+/* 960 Grid system */
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+
+#nav,
+#feature,
+.article,
+#footer {
+  background-color: #efefef;
+  margin-top: 20px;
+  padding: 10px 0px 5px 0px;
+}
+
+#feature,
+.article {
+  height: 100px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
